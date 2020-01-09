@@ -171,14 +171,17 @@ img {
 hr {
   border: 1px dashed silver;
 }
-.Navigation {
+.navigationbar {
   border: 1px solid black;
 }
-.Navigation .Nav2 {
-  border: 1px solid black;
+.navigationbar .navtwo {
+  display: flex;
+  margin: 0%;
+  justify-content: flex-end;
+  width: 100%;
 }
-.Navigation .Nav2 .NavAnchors {
-  border: 1px solid black;
+.navigationbar .navtwo nav a {
+  margin: 5%;
 }
 .footer {
   width: 100%;
