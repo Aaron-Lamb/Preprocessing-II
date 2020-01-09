@@ -171,17 +171,22 @@ img {
 hr {
   border: 1px dashed silver;
 }
+.headbus {
+  margin: 2% 10% -4% 10%;
+  font-size: 380%;
+}
 .navigationbar {
-  border: 1px solid black;
+  display: flex;
 }
 .navigationbar .navtwo {
-  display: flex;
-  margin: 0%;
-  justify-content: flex-end;
+  margin-left: 60%;
+  margin-bottom: 3%;
+  margin-top: 0%;
   width: 100%;
 }
 .navigationbar .navtwo nav a {
-  margin: 5%;
+  margin: 3%;
+  font-size: 180%;
 }
 .footer {
   width: 100%;
