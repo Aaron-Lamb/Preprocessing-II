@@ -282,3 +282,31 @@ hr {
   color: white;
   text-align: center;
 }
+@media (max-width: 500px) {
+  .home .content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .home .content-section .img-content {
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 0%;
+  }
+  .home .content-section .text-content {
+    width: 70%;
+  }
+  .home .inverse-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .home .content-pick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .content-pick .destination {
+    width: 70%;
+  }
+}
