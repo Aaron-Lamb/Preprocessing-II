@@ -189,8 +189,23 @@ hr {
   font-size: 180%;
 }
 @media (max-width: 500px) {
-  body {
-    background-color: blue;
+  .headbus {
+    margin: 2% 0% 3% 35%;
+    font-size: 380%;
+  }
+  .navigationbar {
+    display: flex;
+  }
+  .navigationbar .navtwo {
+    margin-left: 10%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    width: 100%;
+  }
+  .navigationbar .navtwo nav a {
+    margin: 5%;
+    font-size: 180%;
+    width: 100%;
   }
 }
 .footer {
