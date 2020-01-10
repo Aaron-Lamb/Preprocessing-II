@@ -188,6 +188,11 @@ hr {
   margin: 3%;
   font-size: 180%;
 }
+@media (max-width: 500px) {
+  body {
+    background-color: blue;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
