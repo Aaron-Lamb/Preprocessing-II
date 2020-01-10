@@ -251,3 +251,8 @@ hr {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .btn {
+  font-size: 210%;
+  border-radius: 4%;
+  border: solid 1px grey;
+}
