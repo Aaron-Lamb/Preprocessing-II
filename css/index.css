@@ -252,7 +252,13 @@ hr {
   margin-bottom: 30px;
 }
 .home .content-pick .btn {
-  font-size: 210%;
-  border-radius: 4%;
+  font-size: 180%;
+  background: darkcyan;
+  border-radius: 10%;
+  padding: 4% 6% 4% 6%;
+  width: 80%;
+  margin-left: 3%;
   border: solid 1px grey;
+  color: white;
+  text-align: center;
 }

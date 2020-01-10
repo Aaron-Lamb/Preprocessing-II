@@ -1,6 +1,12 @@
 // Mixins in here
-.buttons(@c; @p) {
-    font-size: 210%;
-    border-radius: 4%;
+.buttons(@background-color; @border-radius) {
+    font-size: 180%;
+    background: @background-color;
+    border-radius: @border-radius;
+    padding: 4% 6% 4% 6%;
+    width: 80%;
+    margin-left: 3%;
     border: solid 1px grey;
+    color: white;
+    text-align: center;
 } 
